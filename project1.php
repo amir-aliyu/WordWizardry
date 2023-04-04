@@ -37,7 +37,8 @@
                 <input type="text" name="word2">
                 <input type = "submit" value = "go!" />
 <center>
-</div><div style="background-color:#9ED9CCFF" class = 'wrapper'>
+</div><div style="background-color:#D7DAB8">
+
 
 <?php
  if ($_POST) {
@@ -121,14 +122,13 @@
                 echo "<h3>No synonyms found, please try a different word.</h3>";
 
          }
-        echo "<center></div><div style = 'background-color:#588157' class = 'wrapper'>"; // formatting
+
+ }
+         echo "<center></div><div style = 'background-color:#CAF4F4' class = 'wrapper'>"; // formatting
          // set up random word from a file with only words that have synonyms 
          $random_words = explode("\n", file_get_contents('words1.csv'));
          // store random number 
          $random_num = rand(3, count($random_words));
-
-
- }
 
 ?>
 <h2><p id = "random" >Click me to generate a random word!</p></h2>
