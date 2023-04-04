@@ -47,6 +47,10 @@
          $word1 = $_POST["word1"];
          $word2= $_POST["word2"];
          $start_end_rhyme= $_POST["start-end-rhyme"];
+         
+         // make them lowercase
+         $word1 = strtolower($word1);
+         $word2 = strtolower($word2);
 
          // create an array to store all the synonyms for word1 
          $synonyms_arr = explode("\n", file_get_contents('synonyms.csv'));
