@@ -6,3 +6,6 @@ You can input one or multiple letters into each textbox.
 This website is also great for expanding vocabulary:
 If you click on the 'generate a random word' box, it will give you a pop-up containing a random word. 
 Make sure to find the random word's synonyms! 
+
+Synonyms from: 
+Princeton University "About WordNet." WordNet. Princeton University. 2010.  
